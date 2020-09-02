@@ -1,0 +1,17 @@
+Welcome to the 2020 Embedded 2 Virtual Lab!
+
+In order to "virtually" press buttons and throw switches on our lab Zybo boards,
+please do the following:
+
+
+1. Navigate to the python/ directory in this project folder
+2. Open a terminal, and type:
+	sh virtual_buttons_and_switches.sh
+   
+   This will install some python libraries needed for the utility.
+
+3. Pressing keys 1 through 4 will drive some of the Zybo board pins active high for
+   100 milliseconds. Pressing keys 5 through 8 will toggle some other pins active high or
+   low.
+
+
